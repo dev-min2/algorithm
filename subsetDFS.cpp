@@ -5,7 +5,6 @@ using namespace std;
 
 int N;
 int ch[11];
-// 왼쪽출력. 오른쪽은 안출력. 
 void DFS(int level)
 {
 	if (level > N)
